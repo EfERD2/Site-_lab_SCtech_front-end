@@ -53,20 +53,96 @@
     </article>
 
   </section>
+  <section id="habilidades">
+    <h2>habilidades e tecnologia</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>tecnologia</th>
+          <th>nivel</th>
+          <th>descricao</th>
+        </tr>
+
+      </thead>
+      <tbody>
+        <tr>
+          <td>html</td>
+          <td>nivel</td>
+          <td>capaz de cosntruir paginas web</td>
+           
+
+          
+        </tr>
+          <tr>
+            <td>css</td>
+            <td>intermediario</td>
+            <td>experienncia com flex box, grid e animações </td>
+            
+          </tr>
+          <tr>
+            <td>Javascript</td>
+            <td>basico</td>
+            <td>desenvolvimento de scripts do lado do cliente </td>
+            
+          </tr>
+      </tbody>
+
+    </table>
+
+  </section>
   <footer>
     <p>direitos reservados ao dono do site</p>
     <section id="contato">
       <h2>contato</h2>
       <p>tem um projeto em mente entre em contato</p>
+
+
       <form action="">
         <label for="nome">nome: </label>
+        <input type="text" id="nome" name="nome" required> <br>
+        <br>
+        <label for="email">email: </label>
+        <input type="email" id="email" name="email" required> <br>
+        <br>
+        <label for="telefone">telefone: </label>
+        <input type="tel" id="telefone" name="telefone" required> <br>
+        <br>
+        <label for="assunto">assunto: </label>
+        <br>
+        <select name="assunto" id="assunto"><br>
+          <br>
+          <option value="orçamento">orçamento</option>
+          <option value="duvida">duvida</option>
+          <option value="reservados">reservados</option>
+          <option value="cores">cores</option>
+          <option value="tamanhos">tamanhos</option>
+          <option value="devoluções">devoluções</option>
+          <option value="entrega">entrega</option>
+          <br>
+
+
+        </select>
+        <br>
+        <label for="mensagem">mensagem: </label>
+        <br>
+        <textarea name="mensagem" id="mensagem" cols="20" rows="5" required></textarea> <br>
+        <br>
+
+        <input type="checkbox" id="inscricao" name="inscricao"><br>
+        
+        <label for="inscricao">deseja receber mina newlater? fique por dentro das novidades. </label>
+        <br>
+        <input type="submit" value="enviar mensagem"><br>
+        <br>
+        <input type="date"><br>
+        <br>
       </form>
       <address>
-        <address>
-          <address>
-            email: <a href="mailto:elton_fd@icloud.com">elton_fd@icloud.com</a> <br>
-            telefone:<a href="tel:47984281377">47984281377</a>
-          </address>
+        email: <a href="mailto:elton_fd@icloud.com">elton_fd@icloud.com</a> <br>
+        <br>
+        telefone:<a href="tel:47984281377">47984281377</a>
+
+      </address>
     </section>
   </footer>
 </body>
